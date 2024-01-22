@@ -29,6 +29,19 @@ if(num === 1){
 (num === 50) ? console.log('Expression is true') : console.log('Expression is false')
 
 
+const hamburger = 1;
+const fries = 0;
+
+if(hamburger){
+    if(fries){
+        console.log('Я ситий');
+    }else{
+        console.log('Я голодний');
+    }
+}else{
+    console.log('Я голодний');
+}
+
 // switch-case
 
 let number = 50;
